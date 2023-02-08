@@ -90,15 +90,15 @@
 
 .center::after {
   background: var(--primary-glow);
-  width: 240px;
-  height: 180px;
+  width: 800px;
+  height: 480px;
   z-index: -1;
 }
 
 .center::before,
 .center::after {
   content: '';
-  left: 50%;
+  left: 0%;
   position: absolute;
   filter: blur(45px);
   transform: translateZ(0);
